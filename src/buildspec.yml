@@ -1,0 +1,18 @@
+version: 0.2
+env:
+  variables:
+    env: production
+phases:
+  install:   
+    commands:
+      - git clone ('https://infygit.ad.infosys.com/narayanan.kannan/vuejspoc.git')
+      - npm install --save
+      - npm run test
+
+  build:
+    commands:
+      - npm run build
+artifacts:
+  base-directory: _site
+  files:
+    - '../dist'
