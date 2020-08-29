@@ -22,7 +22,7 @@
     "core-js": "^3.6.5",
     "underscore": "^1.10.2",
     "vue": "^2.6.11",
-    "webpack-node-externals": "^2.5.0",
+    "webpack-node-externals": "^2.5.1",
     "braces": "1.8.5"
   },
   "devDependencies": {
