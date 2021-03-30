@@ -20,7 +20,7 @@
     "bulma": "^0.9.0",
     "chai": "^4.2.0",
     "core-js": "^3.6.5",
-    "underscore": "^1.10.2",
+    "underscore": "^1.12.1",
     "vue": "^2.6.11",
     "webpack-node-externals": "^2.5.0",
     "braces": "1.8.5"
